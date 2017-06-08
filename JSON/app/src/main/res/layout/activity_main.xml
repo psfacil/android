@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logonpf.json.MainActivity">
+
+    <Button android:id="@+id/btnJSON1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="json1"
+        android:text="JSON 1"/>
+
+    <Button android:id="@+id/btnJSON2"
+        android:layout_toRightOf="@id/btnJSON1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="json2"
+        android:text="JSON 2"/>
+
+    <Button android:id="@+id/btnJSON3"
+        android:layout_toRightOf="@id/btnJSON2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="json3"
+        android:text="JSON 3"/>
+
+</RelativeLayout>
